@@ -70,7 +70,7 @@ export default function Hero() {
 
         <div className="flex justify-center gap-8 text-slate-400">
           <div className="text-center">
-            <p className="text-3xl font-bold gradient-text">10+</p>
+            <p className="text-3xl font-bold gradient-text">5</p>
             <p className="text-sm">Projects Built</p>
           </div>
           <div className="text-center">

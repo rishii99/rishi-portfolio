@@ -1,6 +1,24 @@
 export default function Certifications() {
   const certifications = [
     {
+      title: 'AWS Cloud',
+      issuer: 'AWS Academy',
+      date: '2024',
+      icon: '☁️',
+    },
+    {
+      title: 'Oracle Database',
+      issuer: 'Oracle Academy',
+      date: '2024',
+      icon: '🗄️',
+    },
+    {
+      title: 'Data Science Master',
+      issuer: 'Altair',
+      date: '2024',
+      icon: '📊',
+    },
+    {
       title: '100 Days of Python',
       issuer: 'GUVI + HCL',
       date: '2024',
@@ -13,28 +31,10 @@ export default function Certifications() {
       icon: '📚',
     },
     {
-      title: 'Data Science Basics',
-      issuer: 'Oasis Infobyte',
-      date: '2024',
-      icon: '📊',
-    },
-    {
-      title: 'Web Development Fundamentals',
-      issuer: 'Online Course',
-      date: '2023',
-      icon: '🌐',
-    },
-    {
       title: 'Machine Learning 101',
       issuer: 'GUVI',
       date: '2024',
       icon: '🤖',
-    },
-    {
-      title: 'Hackathon Participation',
-      issuer: 'Multiple Events',
-      date: '2023-2024',
-      icon: '🏆',
     },
   ];
 

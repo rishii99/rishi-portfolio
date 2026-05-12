@@ -53,6 +53,12 @@ export default function Achievements() {
     },
     {
       year: '2024',
+      title: 'Smart India Hackathon (SIH)',
+      description:
+        'Achieved Top 10 Finalist position at Smart India Hackathon 2024',
+    },
+    {
+      year: '2024',
       title: 'Specialized in Data Science',
       description:
         'Completed Python training, started ML projects and internship at Oasis Infobyte',
@@ -137,7 +143,7 @@ export default function Achievements() {
         <div className="mt-16 bg-gradient-to-r from-primary to-secondary border border-accent/20 rounded-lg p-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-              <p className="text-3xl font-bold gradient-text mb-2">10+</p>
+              <p className="text-3xl font-bold gradient-text mb-2">5</p>
               <p className="text-text-muted">Projects Completed</p>
             </div>
             <div>
