@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Stats from './components/Stats';
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Achievements from './components/Achievements';
@@ -25,6 +26,9 @@ export default function App() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="stats">
+        <Stats />
       </div>
       <div id="experience">
         <Experience />

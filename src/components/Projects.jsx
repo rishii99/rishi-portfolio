@@ -108,16 +108,13 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                {/* Tech Stack */}
-                <div className="mb-4">
-                  <p className="text-sm font-semibold text-text mb-2">
-                    Tech Stack:
-                  </p>
+                {/* Tech Stack Chips */}
+                <div className="mb-6">
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech, idx) => (
                       <span
                         key={idx}
-                        className="px-2 py-1 bg-accent/10 text-accent text-xs rounded border border-accent/30"
+                        className="px-3 py-1.5 bg-gradient-to-r from-accent/20 to-accent-purple/20 text-accent text-xs font-semibold rounded-full border border-accent/40 hover:border-accent/60 transition-all"
                       >
                         {tech}
                       </span>
