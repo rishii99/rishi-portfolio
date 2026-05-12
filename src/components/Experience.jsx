@@ -1,16 +1,15 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Data Science Internship',
-      company: 'Oasis Infobyte',
-      period: '2024 - 2024',
+      title: 'Data Science Intern (Remote)',
+      company: 'Altair',
+      period: 'Apr 2025 - Jun 2025',
       description:
-        'Worked on data analysis projects and machine learning models. Gained hands-on experience with Python, Pandas, and ML algorithms.',
+        'Tools Used: Python, SQL, Excel, Power BI, TensorFlow. Worked on cleaning and analyzing structured datasets to build reporting pipelines and ML-ready features.',
       highlights: [
-        'Built and trained ML models',
-        'Performed data analysis and visualization',
-        'Collaborated with team on real-world datasets',
-        'Improved model accuracy by 15%',
+        'Cleaned and analyzed structured datasets using Python, SQL, and Excel to identify trends and improve reporting accuracy.',
+        'Built interactive Power BI dashboards to visualize performance metrics and support data-driven insights.',
+        'Applied preprocessing and feature engineering techniques for machine learning workflows.',
       ],
     },
     {

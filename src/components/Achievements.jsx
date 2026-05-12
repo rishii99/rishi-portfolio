@@ -64,13 +64,13 @@ export default function Achievements() {
         'Completed Python training, started ML projects and internship at Oasis Infobyte',
     },
     {
-      year: '2024',
+      year: '2025',
       title: 'Full-Stack Development',
       description:
         'Built real-time applications with React, Node.js, and WebSockets',
     },
     {
-      year: '2025',
+      year: '2026',
       title: 'Portfolio & Placement Ready',
       description:
         'Building professional portfolio and preparing for internship/placement season',

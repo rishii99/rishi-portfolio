@@ -51,12 +51,12 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/your-resume-link"
+            href="/resume.html"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary flex items-center gap-2"
           >
-            📄 Resume
+            📄 Download Resume
           </a>
           <a
             href="https://github.com/rishii99"
