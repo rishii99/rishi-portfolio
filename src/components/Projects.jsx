@@ -2,20 +2,20 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'PackVote',
-      category: 'Machine Learning',
+      title: 'AI-Powered Fashion Styling Advisor',
+      category: 'AI Fashion Tech',
       description:
-        'A machine learning-based system designed to analyze and predict packaging or voting-related patterns using data-driven techniques.',
-      tech: ['Python', 'Pandas', 'Scikit-learn', 'Machine Learning'],
+        'A full-stack AI fashion recommendation app that delivers personalized outfit and styling suggestions using uploaded images, occasions, colors, and preferences.',
+      tech: ['HTML', 'CSS', 'JavaScript', 'Flask'],
       features: [
-        'Data Analysis & Visualization',
-        'ML Model Training',
-        'Pattern Recognition',
-        'Prediction System',
+        'AI-powered outfit recommendations',
+        'Occasion-based styling suggestions',
+        'Flask backend with OpenCV support',
+        'Live Vercel deployment',
       ],
-      github: 'https://github.com/rishii99/packvote',
-      demo: '#',
-      image: '📊',
+      github: 'https://github.com/rishii99/AI-Powered-Fashion-Styling-Advisor',
+      demo: 'https://ai-powered-fashion-styling-advisor.vercel.app',
+      image: '👗',
     },
     {
       id: 2,

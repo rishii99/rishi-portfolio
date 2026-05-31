@@ -104,7 +104,7 @@ git push origin main
 
 ## 🎯 Featured Projects
 
-1. **PackVote** - ML prediction system
+1. **AI-Powered Fashion Styling Advisor** - AI fashion recommendation app
 2. **AI Skin Cancer Detection** - Healthcare AI
 3. **Realtime Whiteboard** - Full-stack collaboration app
 4. **Music Player** - Java desktop application
