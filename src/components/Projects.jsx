@@ -68,6 +68,24 @@ export default function Projects() {
       demo: '#',
       image: '🎵',
     },
+    {
+      id: 5,
+      title: 'Uber Data Analytics Dashboard',
+      category: 'Power BI Analytics',
+      description:
+        'Interactive Power BI dashboard analyzing Uber ride-booking metrics, cancellations, revenue, vehicle performance, and ratings across 2024.',
+      tech: ['Power BI', 'Data Visualization', 'DAX', 'Business Intelligence'],
+      features: [
+        'Cancellation intelligence insights',
+        'Revenue analytics by payment method',
+        'Vehicle type performance and booking trends',
+        'Customer and driver ratings assessment',
+      ],
+      github: '#',
+      demo: '#',
+      dashboard: '#',
+      image: '📊',
+    },
   ];
 
   return (
@@ -141,19 +159,35 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-3">
                   <a
                     href={project.github}
                     className="flex-1 px-4 py-2 bg-accent/10 text-accent border border-accent/30 rounded hover:bg-accent/20 transition-colors text-sm font-medium text-center"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     GitHub
                   </a>
-                  <a
-                    href={project.demo}
-                    className="flex-1 px-4 py-2 bg-accent text-white rounded hover:bg-accent-purple transition-colors text-sm font-medium text-center"
-                  >
-                    Demo
-                  </a>
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      className="flex-1 px-4 py-2 bg-accent text-white rounded hover:bg-accent-purple transition-colors text-sm font-medium text-center"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo Video
+                    </a>
+                  )}
+                  {project.dashboard && (
+                    <a
+                      href={project.dashboard}
+                      className="flex-1 px-4 py-2 bg-accent/10 text-accent border border-accent/30 rounded hover:bg-accent/20 transition-colors text-sm font-medium text-center"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Power BI Dashboard
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
