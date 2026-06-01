@@ -31,7 +31,7 @@ export default function Projects() {
         'Healthcare Application',
       ],
       github: 'https://github.com/rishii99/skin-cancer-detection',
-      demo: '#',
+      demo: 'https://ai-powered-skin-cancer-detection.vercel.app/',
       image: '🏥',
     },
     {
@@ -81,7 +81,7 @@ export default function Projects() {
         'Vehicle type performance and booking trends',
         'Customer and driver ratings assessment',
       ],
-      github: '#',
+      github: 'https://github.com/rishii99/Uber-Data-Analytics-Dashboard',
       demo: '#',
       dashboard: '#',
       image: '📊',
