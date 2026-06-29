@@ -57,22 +57,6 @@ export default function About() {
           </div>
         </div>
 
-        <div className="mt-12 bg-gradient-to-br from-slate-800 to-slate-900 border border-blue-500/20 rounded-lg p-8 text-center">
-          <h3 className="text-3xl font-bold mb-4 gradient-text">
-            Resume
-          </h3>
-          <p className="text-text-muted mb-6">
-            View the exact resume uploaded from your files with contact, education, skills, and project highlights.
-          </p>
-          <a
-            href="/resume.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block btn-primary"
-          >
-            Open Resume
-          </a>
-        </div>
       </div>
     </section>
   );
