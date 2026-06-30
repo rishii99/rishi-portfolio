@@ -151,3 +151,4 @@ MIT License - Feel free to use this template for your own portfolio!
 ---
 
 **Built with ❤️ using React + Tailwind CSS + Vite**
+Online on vercel rishimadheisya.me
